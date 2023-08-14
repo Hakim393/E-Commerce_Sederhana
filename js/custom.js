@@ -1,4 +1,3 @@
-// to get current year
 function getYear() {
   var currentDate = new Date();
   var currentYear = currentDate.getFullYear();
@@ -9,8 +8,8 @@ getYear();
 
 // isotope js
 $(window).on("load", function () {
-  $(".filters_menu li").click(function () {
-    $(".filters_menu li").removeClass("active");
+  $(".filters_product li").click(function () {
+    $(".filters_product li").removeClass("active");
     $(this).addClass("active");
 
     var data = $(this).attr("data-filter");

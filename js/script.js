@@ -28,7 +28,6 @@ function togglePasswordVisibility() {
   }
 }
 
-// Add event listener to the checkbox to toggle the animation class
 const checkbox = document.getElementById("chk");
 const signupForm = document.querySelector(".signup");
 const loginForm = document.querySelector(".login");

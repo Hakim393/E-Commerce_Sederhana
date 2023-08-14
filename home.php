@@ -45,6 +45,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
+    <!-- header section strats -->
     <div class="hero_area">
         <div class="bg-box">
             <video autoplay loop muted>
@@ -56,11 +57,10 @@ if (!isset($_SESSION['username'])) {
                 <source src="./assets/audio.MP3" type="audio/mp3" />
             </audio>
         </div>
-        <!-- header section strats -->
         <header class="header_section">
             <div class="container">
                 <nav class="navbar navbar-expand-lg custom_nav-container">
-                    <a class="navbar-brand" href="logout.php">
+                    <a class="navbar-brand" href="./home.php">
                         <span> Desert Lizard Store </span>
                     </a>
 
@@ -76,7 +76,7 @@ if (!isset($_SESSION['username'])) {
                                 <a class="nav-link" href="home.php">Home <span class="sr-only"></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./menu.html">Menu</a>
+                                <a class="nav-link" href="./Product.html">Product</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./about.html">About</a>
@@ -89,7 +89,7 @@ if (!isset($_SESSION['username'])) {
                             <a href="./index.php" class="user_link">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                             </a>
-                            <a class="cart_link" href="#">
+                            <a class="cart_link" href="./Product.html">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 456.029 456.029" style="enable-background: new 0 0 456.029 456.029"
@@ -136,7 +136,7 @@ if (!isset($_SESSION['username'])) {
                                     <i class="fa fa-search" aria-hidden="true"></i>
                                 </button>
                             </form>
-                            <a href="" class="order_online"> Order Online </a>
+                            <a href="./order.html" class="order_online"> Special Order </a>
                         </div>
                     </div>
                 </nav>
@@ -178,7 +178,7 @@ if (!isset($_SESSION['username'])) {
                                             in fashion with Desert Lizard's new arrivals!
                                         </p>
                                         <div class="btn-box">
-                                            <a href="./menu.html" class="btn1"> Click Here </a>
+                                            <a href="./Product.html" class="btn1"> Click Here </a>
                                         </div>
                                     </div>
                                 </div>
@@ -342,10 +342,10 @@ if (!isset($_SESSION['username'])) {
     <section class="tshrt_section layout_padding-bottom">
         <div class="container">
             <div class="heading_container heading_center">
-                <h2>Our Menu</h2>
+                <h2>Our Product</h2>
             </div>
 
-            <ul class="filters_menu">
+            <ul class="filters_product">
                 <li class="active" data-filter="*">All</li>
                 <li data-filter=".shirt">Shirts</li>
                 <li data-filter=".pants">Pants</li>
@@ -366,7 +366,7 @@ if (!isset($_SESSION['username'])) {
                                     <p>Feel the summer breeze in these comfy shorts.</p>
                                     <div class="options">
                                         <h6>$34</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -428,7 +428,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$28</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -490,7 +490,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$22</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -552,7 +552,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$30</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -615,7 +615,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$24</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -677,7 +677,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$50</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -739,7 +739,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$50</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -801,7 +801,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$14</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -864,7 +864,7 @@ if (!isset($_SESSION['username'])) {
                                     </p>
                                     <div class="options">
                                         <h6>$80</h6>
-                                        <a href="">
+                                        <a href="./Product.html">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 456.029 456.029"
@@ -915,7 +915,7 @@ if (!isset($_SESSION['username'])) {
                 </div>
             </div>
             <div class="btn-box">
-                <a href="./menu.html"> View More </a>
+                <a href="./Product.html"> View More </a>
             </div>
         </div>
     </section>
