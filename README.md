@@ -1,8 +1,5 @@
-# E-Commerce_Sederhana
-Using HTML CSS JS PHP
-
-**Simulasi Website E-Commerce, dengan fitur proses checkout, Registrasi / Login page, informasi promo dan lain - lain.
-**
+# E-Commerce_Sederhana Using HTML CSS JS PHP
+Simulasi Website E-Commerce, dengan fitur proses checkout, Registrasi / Login page, informasi promo dan lain - lain.
 Ikuti langkah-langkah berikut untuk melihat proyek:
 1. Unduh semua folder E-Commerce_Sederhana menggunakan opsi klon atau Download file zip.
 
@@ -14,13 +11,13 @@ Ikuti langkah-langkah berikut untuk melihat proyek:
 
 5. Masukan 4 kolom yang terdiri dari ID, Username, Email, dan Password.
 
-  ** Now you are all set to view the project.**
+ Now you are all set to view the project.
 
 7. Lalu buka terminal pada aplikasi VsCode, dan ketikan "php -S localhost:8000", saat muncul link ip nya langsung klick link tersebut untuk masuk ke halaman index.php
 
 8. Lalu masukan Username, Email dan Password untuk signup terlebih dahulu.
 
-9. Jika sudah, maka data Username, Email dan Password akan langsung masuk di dalam database.
+9. Jika sudah, maka data Username, Email dan Password akan langsung masuk di dalam database. 
 
 10. Langsung login menggunakan email dan password.
 
