@@ -11,7 +11,7 @@ Ikuti langkah-langkah berikut untuk melihat proyek:
 
 5. Masukan 4 kolom yang terdiri dari ID, Username, Email, dan Password.
 
- Now you are all set to view the project.
+ *********Now you are all set to view the project.*********
 
 7. Lalu buka terminal pada aplikasi VsCode, dan ketikan "php -S localhost:8000", saat muncul link ip nya langsung klick link tersebut untuk masuk ke halaman index.php
 
